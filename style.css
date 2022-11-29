@@ -1,0 +1,35 @@
+/* div{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    margin: 100px auto;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+
+    animation-name: test;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+} */
+
+img{
+    position: absolute;
+    top: 20px;
+    width: 250px;
+    animation-name: test;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+}
+
+@keyframes test {
+
+    0%{
+        left: 20px;
+    }
+
+    100%{
+        left: 1000px;
+
+    }
+
+}
